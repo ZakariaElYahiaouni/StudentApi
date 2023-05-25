@@ -1,7 +1,6 @@
 global using Microsoft.AspNetCore.Mvc;
 global using AutoMapper;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

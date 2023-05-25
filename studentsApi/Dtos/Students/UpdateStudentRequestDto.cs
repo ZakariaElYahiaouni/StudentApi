@@ -1,8 +1,8 @@
-namespace studentsApi.Dtos.Students;
+﻿namespace studentsApi.Dtos.Students;
 
-public class AddStudentRequestDto
+public class UpdateStudentRequestDto
 {
-    //properties
+    public int IdStudent { get; set; }
     public string NameStudent { get; set; } = string.Empty;
     public string SurnameStudent { get; set; } = string.Empty;
     public string NationalNumberStudent { get; set; } = string.Empty;

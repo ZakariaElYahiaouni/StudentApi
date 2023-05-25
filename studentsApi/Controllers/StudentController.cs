@@ -1,4 +1,6 @@
 
+using studentsApi.Dtos.Students;
+
 namespace studentsApi.Controllers
 {
 
@@ -18,7 +20,7 @@ namespace studentsApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<ServiceResponse<GetStudentResponseDto>>> GetSingleStudent(int id)
         {
-            return Ok(await _studentService.GetSingleStudent(id)); 
+            return Ok(await _studentService.GetSingleStudent(id));
         }
         [HttpPost()]
         public async Task<ActionResult<ServiceResponse<List<GetStudentResponseDto>>>> InsertStudent(AddStudentRequestDto _student)
@@ -26,5 +28,13 @@ namespace studentsApi.Controllers
 
             return Ok(await _studentService.InsertStudent(_student));
         }
+        
+        [HttpPut()]
+        public async Task<ActionResult<ServiceResponse<List<GetStudentResponseDto>>>> UpdateStudent(UpdateStudentRequestDto studentUpdated)
+        {
+            return Ok(await _studentService.UpdateSingleStudent(studentUpdated));
+
+        }
+        
     }
 }

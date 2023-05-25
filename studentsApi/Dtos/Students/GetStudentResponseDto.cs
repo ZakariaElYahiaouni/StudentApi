@@ -1,3 +1,5 @@
+namespace studentsApi.Dtos.Students;
+
 public class GetStudentResponseDto
 {
     public int IdStudent { get; set; }
