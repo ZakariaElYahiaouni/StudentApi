@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi.csproj": {}
+    "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi\\studentsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi.csproj": {
+    "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi\\studentsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi.csproj",
+        "projectUniqueName": "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi\\studentsApi.csproj",
         "projectName": "studentsApi",
-        "projectPath": "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi.csproj",
+        "projectPath": "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi\\studentsApi.csproj",
         "packagesPath": "C:\\Users\\zakaria.elyahiaouni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\obj\\",
+        "outputPath": "C:\\Users\\zakaria.elyahiaouni\\Desktop\\studentsApi\\studentsApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
